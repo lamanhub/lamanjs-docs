@@ -17,7 +17,7 @@
    LamanHub simplifies the deployment process, allowing you to host your websites with just a few commands. The platform handles the hosting infrastructure, so you can concentrate on building and refining your web projects without worrying about server management.
 
 5. **Subdomain Allocation for Projects**  
-   Each website hosted on LamanHub is assigned a unique subdomain, making it easy to access and share your projects. For example, if your main domain is `lamanhub.id`, your hosted sites might be accessible at `projectname.lamanhub.site`.
+   Each website hosted on LamanHub is assigned a unique subdomain, making it easy to access and share your projects.
 
 ## Who is LamanHub For?
 
