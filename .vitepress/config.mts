@@ -18,7 +18,7 @@ export default defineConfig({
     ],
     footer: {
       message: "Made with ❤️ by LamanHub",
-      copyright: "Copyright © 2019-present",
+      copyright: "Copyright © 2024-present",
     },
     logo: "/lamanhub.svg",
     siteTitle: "LamanHub",
