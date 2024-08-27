@@ -1,6 +1,6 @@
 # SSR Fetching
 
-This guide will walk you through the basics of data fetching and caching in LamanHub, providing practical examples and best practices.
+This guide will walk you through the basics of SSR data fetching in LamanHub, providing practical examples and best practices.
 
 Here's a minimal example of data fetching in LamanHub:
 
