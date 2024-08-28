@@ -7,7 +7,7 @@ hero:
   text: "Documentation"
   tagline: Streamlined Development, Seamless Hosting
   image:
-    src: /logo-glow.svg
+    src: /logo-glow.png
     alt: LamanHub
   actions:
     - theme: brand

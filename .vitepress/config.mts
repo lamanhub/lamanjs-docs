@@ -5,10 +5,7 @@ export default defineConfig({
   title: "LamanHub Documentation",
   description: "Documentation for LamanHub",
   head: [
-    [
-      "link",
-      { rel: "icon", type: "image/svg+xml", href: "src/assets/lamanhub.svg" },
-    ],
+    ["link", { rel: "icon", type: "image/svg+xml", href: "lamanhub.svg" }],
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
