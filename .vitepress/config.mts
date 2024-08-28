@@ -2,7 +2,7 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "LamanHub - Streamlined Development, Seamless Hosting",
+  title: "LamanHub",
   description: "Streamlined Development, Seamless Hosting",
   head: [
     ["link", { rel: "icon", type: "image/svg+xml", href: "lamanhub.svg" }],
