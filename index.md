@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "LamanHub"
-  text: "Documentation"
+  text: "Website Hosting"
   tagline: Streamlined Development, Seamless Hosting
   image:
     src: /logo-glow.png
