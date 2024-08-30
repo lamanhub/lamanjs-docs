@@ -2,7 +2,7 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "LamanHub",
+  title: "LamanHub Documentation",
   description: "Streamlined Development, Seamless Hosting",
   head: [
     ["link", { rel: "icon", type: "image/svg+xml", href: "lamanhub.svg" }],
@@ -10,6 +10,7 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
+      { text: "Home", link: "https://lamanhub.site" },
       { text: "Dashboard", link: "https://app.lamanhub.site" },
       { text: "Docs", link: "/docs/what-is-lamanhub" },
     ],

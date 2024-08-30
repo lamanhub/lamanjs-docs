@@ -4,16 +4,13 @@ layout: home
 
 hero:
   name: "LamanHub"
-  text: "Website Hosting"
+  text: "Documentation"
   tagline: Streamlined Development, Seamless Hosting
   image:
     src: /logo-glow.png
     alt: LamanHub
   actions:
     - theme: brand
-      link: https://app.lamanhub.site
-      text: Dashboard
-    - theme: alt
       text: What is LamanHub?
       link: /docs/what-is-lamanhub
     - theme: alt
