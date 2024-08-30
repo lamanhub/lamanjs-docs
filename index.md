@@ -3,16 +3,16 @@
 layout: home
 
 hero:
-  name: "LamanHub"
+  name: "Laman.js"
   text: "Documentation"
-  tagline: Streamlined Development, Seamless Hosting
+  tagline: Simplifying Modern Web Development with Edge-Powered Elegance
   image:
     src: /logo-glow.png
     alt: LamanHub
   actions:
     - theme: brand
-      text: What is LamanHub?
-      link: /docs/what-is-lamanhub
+      text: What is Laman.js?
+      link: /docs/introduction
     - theme: alt
       text: Getting Started
       link: /docs/getting-started

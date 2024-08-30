@@ -2,30 +2,29 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "LamanHub Documentation",
-  description: "Streamlined Development, Seamless Hosting",
+  title: "Laman.js",
+  description: "Simplifying Modern Web Development with Edge-Powered Elegance",
   head: [
     ["link", { rel: "icon", type: "image/svg+xml", href: "lamanhub.svg" }],
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: "Home", link: "https://lamanhub.site" },
-      { text: "Dashboard", link: "https://app.lamanhub.site" },
-      { text: "Docs", link: "/docs/what-is-lamanhub" },
+      { text: "LamanHub", link: "https://lamanhub.site" },
+      { text: "Docs", link: "/docs/introduction" },
     ],
     footer: {
       message: "Made with ❤️ by LamanHub Team",
       copyright: "Copyright © 2024-present",
     },
     logo: "/lamanhub.svg",
-    siteTitle: "LamanHub",
+    siteTitle: "Laman.js",
 
     sidebar: [
       {
         text: "Docs",
         items: [
-          { text: "What is LamanHub?", link: "/docs/what-is-lamanhub" },
+          { text: "Introduction", link: "/docs/introduction" },
           { text: "Getting Started", link: "/docs/getting-started" },
           { text: "Routing", link: "/docs/routing" },
           { text: "Edge.js", link: "/docs/edgejs" },
