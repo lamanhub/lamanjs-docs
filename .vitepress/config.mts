@@ -5,7 +5,7 @@ export default defineConfig({
   title: "Laman.js",
   description: "Simplifying Modern Web Development with Edge-Powered Elegance",
   head: [
-    ["link", { rel: "icon", type: "image/svg+xml", href: "Laman.js.svg" }],
+    ["link", { rel: "icon", type: "image/svg+xml", href: "lamanhub.svg" }],
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -17,7 +17,7 @@ export default defineConfig({
       message: "Made with ❤️ by Laman.js Team",
       copyright: "Copyright © 2024-present",
     },
-    logo: "/Laman.js.svg",
+    logo: "/lamanhub.svg",
     siteTitle: "Laman.js",
 
     sidebar: [
