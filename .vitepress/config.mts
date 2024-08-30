@@ -35,7 +35,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: "github", link: "https://github.com/lamanhub/laman-cli" },
+      { icon: "github", link: "https://github.com/lamanhub/lamanjs" },
     ],
   },
 });
