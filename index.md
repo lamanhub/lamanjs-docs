@@ -8,7 +8,7 @@ hero:
   tagline: Simplifying Modern Web Development with Edge-Powered Elegance
   image:
     src: /logo-glow.png
-    alt: LamanHub
+    alt: Laman.js
   actions:
     - theme: brand
       text: What is Laman.js?
@@ -29,5 +29,5 @@ features:
   - icon:
       src: /express.svg
     title: Server-Side Rendering (SSR) Support
-    details: With built-in support for Server-Side Rendering (SSR), LamanHub ensures that your websites load faster and rank higher, offering a superior user experience and improved performance.
+    details: With built-in support for Server-Side Rendering (SSR), Laman.js ensures that your websites load faster and rank higher, offering a superior user experience and improved performance.
 ---

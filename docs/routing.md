@@ -2,7 +2,7 @@
 
 ## File-Based Routing
 
-LamanHub uses file-based routing, which means the generated website pages are mapped from the directory structure of the source Edge files. For example, given the following directory structure:
+Laman.js uses file-based routing, which means the generated website pages are mapped from the directory structure of the source Edge files. For example, given the following directory structure:
 
 ```
 src
@@ -22,7 +22,7 @@ prologue.edge           -->  /prologue
 
 ## Public and Pages Directory
 
-There are two important concepts in the file structure of a LamanHub project: the public and the pages directory.
+There are two important concepts in the file structure of a Laman.js project: the public and the pages directory.
 
 ### Public Directory
 
