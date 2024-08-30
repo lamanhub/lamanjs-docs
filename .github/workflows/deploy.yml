@@ -29,4 +29,4 @@ jobs:
           SOURCE: ".vitepress/dist/"
           REMOTE_HOST: ${{ secrets.SSH_HOST }}
           REMOTE_USER: ${{ secrets.SSH_USERNAME }}
-          TARGET: "/var/app/Laman.js-docs"
+          TARGET: "/var/app/lamanhub-docs"
