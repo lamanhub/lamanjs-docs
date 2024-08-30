@@ -12,7 +12,7 @@
 LamanHub ships with a command line setup that will help you scaffold a basic project. You can install it with:
 
 ```bash
-npm init laman my-web
+npm init lamanjs my-web
 ```
 
 After installation, start the development server by running:
