@@ -1,4 +1,4 @@
-# SSR Fetching
+# Data Fetching
 
 This guide will walk you through the basics of SSR data fetching in Laman.js, providing practical examples and best practices.
 
