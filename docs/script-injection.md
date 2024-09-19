@@ -23,42 +23,37 @@ The **Script Injection** feature allows for the execution of JavaScript on the s
 
 3. **Use in Edge Template:**
 
-   After creating the `inject.ts` file, you can use the injected library within your `.edge` templates. Each time `await inject()` is called, the script will be executed on the server:
+   After creating the `inject.ts` file, you can use the injected library within your `.edge` templates. Simply call `inject` to access the exported libraries:
 
    ```edge
-   {{ (await inject()).moment().format("YYYY-MM-DD") }}
+   {{ inject.moment().format("YYYY-MM-DD") }}
    ```
 
    In this example, `moment()` is used to format the date on the server before the result is sent to the client.
 
 ## Limitations
 
-- **Script Execution:**
+For security reasons, the following Node.js core modules **cannot be imported** via script injection. Using these modules may expose the server to security risks.
 
-  - Scripts will be executed every time `await inject()` is called on the server side. Use this feature judiciously to avoid potential performance overhead on the server.
+Prohibited modules:
 
-- **Prohibited Modules:**
-  For security reasons, the following Node.js core modules **cannot be imported** via script injection. Using these modules may expose the server to security risks.
+- `fs`
+- `child_process`
+- `net`
+- `http`
+- `https`
+- `dns`
+- `os`
+- `process`
+- `vm`
+- `repl`
+- `cluster`
+- `buffer`
+- `path`
+- `crypto`
+- `timers`
 
-  Prohibited modules:
-
-  - `fs`
-  - `child_process`
-  - `net`
-  - `http`
-  - `https`
-  - `dns`
-  - `os`
-  - `process`
-  - `vm`
-  - `repl`
-  - `cluster`
-  - `buffer`
-  - `path`
-  - `crypto`
-  - `timers`
-
-  Access to these modules is restricted to prevent potential security issues such as remote code execution.
+Access to these modules is restricted to prevent potential security issues such as remote code execution.
 
 ## Benefits
 
@@ -76,5 +71,5 @@ export { default as moment } from "moment";
 
 ```edge
 {{-- src/pages/index.edge --}}
-{{ (await inject()).moment().format("YYYY-MM-DD") }}
+{{ inject.moment().format("YYYY-MM-DD") }}
 ```
