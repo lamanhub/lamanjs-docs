@@ -30,7 +30,7 @@ export default defineConfig({
           { text: "Edge.js", link: "/docs/edgejs" },
           { text: "Data Fetching", link: "/docs/data-fetching" },
           { text: "Request Object", link: "/docs/request-object" },
-          { text: "Response Header", link: "/docs/response-header" },
+          { text: "Response Object", link: "/docs/response-object" },
           { text: "Script Injection", link: "/docs/script-injection" },
           { text: "Deployment", link: "/docs/deployment" },
         ],
